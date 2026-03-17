@@ -1,0 +1,18 @@
+# Smart Helmet — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Adafruit Blinka (CircuitPython on Raspberry Pi)
+adafruit-blinka
+
+# I2C sensor libraries
+adafruit-circuitpython-ssd1306     # OLED display
+adafruit-circuitpython-vl53l0x     # ToF distance sensor
+adafruit-circuitpython-dht         # DHT22 temperature/humidity
+
+# Image rendering for OLED
+Pillow
+
+# GPIO (gpiozero is pre-installed on Raspberry Pi OS)
+gpiozero
+# lgpio backend for Pi 5
+lgpio
